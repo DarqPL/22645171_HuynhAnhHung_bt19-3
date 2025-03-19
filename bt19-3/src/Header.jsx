@@ -23,13 +23,19 @@ function Header() {
           </Link>
         </li>
         <li style={khoangCach}>
-          <button>4</button>
+        <Link to="/Four">
+            <button>4</button>
+          </Link>
         </li>
         <li style={khoangCach}>
-          <button>5</button>
+        <Link to="/Five">
+            <button>5</button>
+          </Link>
         </li>
         <li style={khoangCach}>
-          <button>6</button>
+        <Link to="/Six">
+            <button>6</button>
+          </Link>
         </li>
       </ul>
     </header>
